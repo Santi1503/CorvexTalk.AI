@@ -3,7 +3,7 @@ pipeline {
     environment {
         SERVER_REG = "balgittuber"
         AWS_SERVER = "ubuntu@172.31.20.210"
-        AWS_PEM = "/var/jenkinks_home/aws/santi.pem"
+        AWS_PEM = "/var/jenkins_home/aws/santi.pem"
 
         APP_NAME = "corven-talk-ai"
         PORT = "3000"
