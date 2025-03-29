@@ -27,6 +27,7 @@ pipeline {
                         echo "Stopping and removing existing container: ${APP_NAME}"
                         docker stop ${APP_NAME}
                         docker rm ${APP_NAME}
+                    fi
                     "
 
                     ssh -i ${AWS_PEM} ${AWS_SERVER} "
