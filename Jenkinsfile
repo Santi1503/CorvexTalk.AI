@@ -5,6 +5,7 @@ pipeline {
         AWS_SERVER = "ubuntu@34.235.175.49"
         AWS_PEM = "/var/jenkins_home/aws/santi.pem"
 
+        /** DEPLOYMENT **/
         APP_NAME = "corven-talk-ai"
         PORT = "3000"
         ENV = "/home/ubuntu/envs/${APP_NAME}/env"
