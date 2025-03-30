@@ -47,8 +47,6 @@ app.post("/api/generate", async (req, res) => {
             message: error.message,
         })
     }
-  
-    
 })
 
 app.listen(PORT, () => {
